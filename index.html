@@ -1,0 +1,356 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borodinski</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-menu">
+            <div class="container">
+                <ul class="header-wrapper">
+                    <li class="header-wrapper__item">
+                        <a href="#" class="header-wrapper__link">Main</a>
+                    </li>
+                    <li class="header-wrapper__item">
+                        <a href="#" class="header-wrapper__link">Our works</a>
+                    </li>
+                    <li class="header-wrapper__item">
+                        <a href="#" class="header-wrapper__link">Reservation</a>
+                    </li>
+                    <li class="header-wrapper__item">
+                        <a href="#" class="header-wrapper__link">Contacts</a>
+                    </li>
+                    <li class="header-wrapper__item">
+                        <a href="#" class="header-wrapper__link">Htmlacademy</a>
+                    </li>
+                    <li class="header-wrapper__item header-wrapper__item--login">
+                        <button class="header-wrapper__button">
+                            <img class="header-wrapper__login-icon" src="img/login.svg" alt="Icon: Login">
+                            <span class="header-wrapper__login-text">Sign in</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-menu-mob">
+            <button class="header-menu-mob__close">
+                <img src="img/close.svg" alt="Sign: close">
+            </button>
+            <button class="header-menu-mob__button">
+                <div class="header-menu-mob__wrapper">
+                    <span class="header-menu-mob__line"></span>
+                    <span class="header-menu-mob__line"></span>
+                    <span class="header-menu-mob__line"></span>
+                </div>
+            </button>
+        </div>
+
+        <div class="login">
+            <h2 class="login__title">Личный кабинет</h2>
+            <span class="login__text">Введите свой логин и пароль, чтобы войти</span>
+            <input type="text" class="login__input login__username" placeholder="Логин">
+            <input type="password" class="login__input login__password" placeholder="Пароль">
+            <div class="login__links">
+                <div class="login__remember-wrapper">
+                    <input type="checkbox" id="check-1" class="login__remember"></inpute>
+                    <label for="check-1" class="login__label">Запомните меня</label>
+                </div>
+                <a href="#" class="login__forget">Я забыл пароль!</a>
+            </div>
+            <div class="login__buttons-wrapper">
+                <button class="login__button">Войти<span class="login__button-span"> в личный кабинет</span></button>
+                <button class="login__button--close-mob">Закрыть</button>
+            </div>
+        </div>
+        <button class="login__close">
+            <img src="img/close.svg" alt="Icon: close">
+        </button>
+
+        <div class="header-back">
+            <div class="container header-back__container">
+                <div class="back-wrapper">
+                    <img src="img/logo-min.svg" alt="Logo: Borodinski" class="back-wrapper__logo">
+                    <img src="img/moustache.svg" alt="Moustache" class="back-wrapper__moustache">
+                </div>
+                <div class="back-stat">
+                    <div class="back-stat__offer">
+                        <h2 class="back-stat__title">Стрижка у нас
+                            это выгодно!</h2>
+                        <p class="back-stat__text">Мужская стрижка требует
+                            точного подхода. Обратимся
+                            к статистике:</p>
+                        <span class="back-stat__info">* — приведённые данные ложь</span>
+                    </div>
+                    <div class="back-stat__fact back-stat__fact--grey">
+                        <span class="back-stat__number">1500*</span>
+                        <span class="back-stat__subtitle">рублей вложений</span>
+                    </div>
+                    <div class="back-stat__fact back-stat__fact--light">
+                        <span class="back-stat__number">7200*</span>
+                        <span class="back-stat__subtitle">секунд времени мастера</span>
+                    </div>
+                    <div class="back-stat__fact back-stat__fact--black">
+                        <span class="back-stat__number">90 000*</span>
+                        <span class="back-stat__subtitle">постриженных волос</span>
+                    </div>
+                    <div class="back-stat__fact back-stat__fact--grey">
+                        <span class="back-stat__number">500 000*</span>
+                        <span class="back-stat__subtitle">лайков и комплиментов</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-wrapper">
+                <div class="benefits__card benefits__card--border">
+                    <img class="benefits__icon" src="img/fast.svg" alt="Icon: fast">
+                    <div class="benefits__info">
+                        <span class="benefits__title">Быстро</span>
+                        <p class="benefits__text">
+                            Мы делаем свою работу быстро!
+                            Два часа пролетят незаметно
+                            и вы — счастливый обладатель
+                            стильной стрижки-минутки
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits__card benefits__card--border">
+                    <img class="benefits__icon" src="img/cool.svg" alt="Icon: cool">
+                    <div class="benefits__info">
+                        <span class="benefits__title">Круто</span>
+                        <p class="benefits__text">
+                            Забудьте, как вы стриглись раньше. 
+                            Мы сделаем из вас звезду футбола или кино. 
+                            Во всяком случае внешне.
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits__card">
+                    <img class="benefits__icon" src="img/expensive.svg" alt="Icon: expensive">
+                    <div class="benefits__info">
+                        <span class="benefits__title">Дорого</span>
+                        <p class="benefits__text">
+                            Наши мастера — профессионалы своего 
+                            дела не могут стоить дёшево. 
+                            К тому же, разве цена не даёт определённый статус?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <img class="angle" src="img/angle.svg" alt="Angle">
+    </section>
+    
+    <section class="benefits-mob">
+        <!-- Slider main container -->
+        <div class="benefits-mob__container swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="benefits-mob__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="benefits-mob__slide swiper-slide">
+                    <img class="benefits-mob__icon" src="img/fast.svg" alt="Icon: fast">
+                    <div class="benefits-mob__info">
+                        <span class="benefits-mob__title">Быстро</span>
+                        <p class="benefits-mob__text">
+                            Мы делаем свою работу быстро!
+                            Два часа пролетят незаметно
+                            и вы — счастливый обладатель
+                            стильной стрижки-минутки
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits-mob__slide swiper-slide">
+                    <img class="benefits-mob__icon" src="img/cool.svg" alt="Icon: cool">
+                    <div class="benefits-mob__info">
+                        <span class="benefits-mob__title">Круто</span>
+                        <p class="benefits-mob__text">
+                            Забудьте, как вы стриглись раньше. 
+                            Мы сделаем из вас звезду футбола или кино. 
+                            Во всяком случае внешне.
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits-mob__slide swiper-slide">
+                    <img class="benefits-mob__icon" src="img/expensive.svg" alt="Icon: expensive">
+                    <div class="benefits-mob__info">
+                        <span class="benefits-mob__title">Дорого</span>
+                        <p class="benefits-mob__text">
+                            Наши мастера — профессионалы своего 
+                            дела не могут стоить дёшево. 
+                            К тому же, разве цена не даёт определённый статус?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            
+        </div>
+        <div class="benefits-mob__pages-wrap">
+            <div class="benefits-mob__pagination swiper-pagination"></div>
+        </div>
+        
+        <img src="img/angle.svg" alt="Angle" class="benefits-angle">
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="news-wrapper">
+                <div class="news__top">
+                    <h2 class="news__title">Новости и акции</h2>
+                    <button class="button news__button">Показать все</button>
+                </div>
+                <div class="news__item news__item--mob">
+                    <div class="news__date">
+                        <div class="news__date-wrapper">
+                            <span class="news__day">29</span>
+                        <span class="news__month">Сент</span>
+                        </div>
+                    </div>
+                    <div class="news__text">
+                        Нам наконец завезли
+                        Ягермайстер! Теперь вы можете
+                        пропустить стаканчик во время
+                        стрижки.
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__date">
+                        <div class="news__date-wrapper">
+                            <span class="news__day">19</span>
+                        <span class="news__month">Сент</span>
+                        </div>
+                    </div>
+                    <div class="news__text">
+                        В нашей команде пополнение, 
+                        Борис «Бритва» Стригунец, 
+                        пополнил наши стройные ряды. 
+                        Спешите записаться!
+                    </div>
+                </div>
+                <div class="news__item news__item--hidden">
+                    <div class="news__date">
+                        <div class="news__date-wrapper">
+                            <span class="news__day">9</span>
+                        <span class="news__month">Сент</span>
+                        </div>
+                    </div>
+                    <div class="news__text">
+                        Все дорожает, а наши стрижки нет! 
+                        Как так? Приходите, постригитесь и 
+                        узнаете, в чем здесь подвох!
+                    </div>
+                </div>
+                <button class="button news__button--mob">Показать все</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__top">
+                <h2 class="reviews__title">Отзывы о нас</h2>
+                <button class="button reviews__button">Оставить свой</button>
+            </div>
+            <!-- Slider main container -->
+            <div class="reviews-slider swiper-container">
+                <h2 class="reviews__title--mob">Отзывы о нас</h2>
+                <!-- Additional required wrapper -->
+                <div class="reviews-slider__wrapper swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="reviews-slider__slide swiper-slide">
+                        <img class="reviews-slider__photo" src="img/review-photo.jpg" alt="Photo: reviews">
+                        <div class="reviews-slider__info">
+                            <span class="reviews-slider__name">Трэвис Баркер</span>
+                            <p class="reviews-slider__text">Спасибо за лысину! Был проездом в Москве, 
+                                заскочил побриться, чтобы было видно новую татуировку!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__slide swiper-slide">
+                        <img class="reviews-slider__photo" src="img/review-photo.jpg" alt="Photo: reviews">
+                        <div class="reviews-slider__info">
+                            <span class="reviews-slider__name">Трэвис Баркер</span>
+                            <p class="reviews-slider__text">Спасибо за лысину! Был проездом в Москве, 
+                                заскочил побриться, чтобы было видно новую татуировку!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__slide swiper-slide">
+                        <img class="reviews-slider__photo" src="img/review-photo.jpg" alt="Photo: reviews">
+                        <div class="reviews-slider__info">
+                            <span class="reviews-slider__name">Трэвис Баркер</span>
+                            <p class="reviews-slider__text">Спасибо за лысину! Был проездом в Москве, 
+                                заскочил побриться, чтобы было видно новую татуировку!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <button class="reviews-slider__button reviews-slider__button--prev swiper-button-prev"></button>
+                <button class="reviews-slider__button reviews-slider__button--next swiper-button-next"></button>
+            </div>
+            <div class="pagination-wrapper">
+                <!-- If we need pagination -->
+                <div class="reviews-slider__pagination swiper-pagination"></div>
+            </div>
+        </div>
+        <img src="img/angle-dark.svg" alt="Angle: dark" class="reviews__angle">
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer__address">
+                    <h3 class="footer__title">
+                        Барбершоп Бородинский
+                    </h3>
+                    <p class="footer__text">
+                        г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+                        <span class="footer__phone">Тел.: +7 (812) 555-66-66</span>
+                    </p>
+                </div>
+                <div class="footer__social">
+                    <span class="footer__subtitle footer__subtitle--hidden">
+                        Давайте дружить!
+                    </span>
+                    <a href="https://vk.com" class="footer__link">
+                        <img src="img/vk.svg" alt="Icon: VK" class="footer__icon">
+                    </a>
+                    <a href="https://facebook.com" class="footer__link">
+                        <img src="img/fb.svg" alt="Icon: FB" class="footer__icon">
+                    </a>
+                    <a href="https://instagram.com" class="footer__link">
+                        <img src="img/inst.svg" alt="Icon: INSTA" class="footer__icon">
+                    </a>
+                </div>
+                <div class="footer__credits">
+                    <span class="footer__academy">
+                        Разработано:
+                    </span>
+                    <a href="https://htmlacademy.ru" class="footer__link footer__link--long">
+                        Htmlacademy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+</html>

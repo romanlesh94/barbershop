@@ -1,0 +1,93 @@
+.reviews
+    background-color: #f8f5f2
+    min-height: 392px
+    &__angle
+        display: none
+    &__top
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-basis: 100%
+        padding: 47px 0
+    &__title
+        margin: 0 0 0 70px
+        font-style: normal
+        font-weight: bold
+        font-size: 40px
+        line-height: 30px
+        text-transform: uppercase
+        &--mob
+            display: none
+    &-slider
+        width: 960px
+        height: 160px
+        &__info
+            border: 1px solid #E5DDD5
+            padding: 35px 50px
+        &__name
+            font-style: normal
+            font-weight: bold
+            font-size: 24px
+            line-height: 27px
+            
+        &__text
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            line-height: 27px
+            max-width: 470px
+            
+        &__button
+            height: 160px
+            width: 50px
+            margin: 0
+            top: 0
+            bottom: 0
+            transform: none
+            background-color: #f8f5f2
+            border: 1px solid #E5DDD5
+            &--prev
+                left: 0
+                &::after
+                    content: url('../img/left-arrow.svg')
+            &--next
+                right: 0
+                &::after
+                    content: url('../img/right-arrow.svg')
+        &__slide
+            display: flex
+            justify-content: center
+        &__pagination
+            margin: 40 auto
+            width: 960
+            justify-content: center
+            
+.swiper
+    &-pagination
+        &-wrapper
+            
+        &-bullet
+            border-radius: 0
+            transform: rotate(45deg)
+            margin: 0 11px
+            opacity: 1
+            border: 1px solid #353535
+            box-sizing: border-box
+            background-color: transparent
+            cursor: pointer
+            &-active
+                background-color: #353535
+            
+            
+            
+            
+            
+            
+
+            
+        
+        
+            
+            
+        
+

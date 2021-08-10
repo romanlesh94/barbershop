@@ -1,0 +1,106 @@
+.login
+    display: none
+    animation-name: appear
+    animation-duration: 1s
+    animation-timing-function: ease
+    &__close
+        display: none
+        &--visible
+            display: inline-block
+            position: absolute
+            background-color: transparent
+            border: none
+            cursor: pointer
+            top: 130px
+            right: 20%
+            z-index: 101
+    &--visible
+        padding: 56px 70px
+        display: flex
+        position: absolute
+        background-color: #f8f5f2
+        width: 460px
+        height: 502px
+        z-index: 101
+        flex-direction: column
+        top: 105px
+        left: 50%
+        transform: translateX(-50%)
+        align-items: center
+        box-shadow: 0px 30px 50px rgba(0, 1, 1, 0.75)
+    &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 40px
+        line-height: 52px
+        text-transform: uppercase
+        margin: 0 0 23px 0
+    &__text
+        margin: 0 0 30px 0
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 23px
+    &__input
+        height: 70px
+        width: 100%
+        border: 1px solid #E5DDD5
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 31px
+        padding-left: 25px
+    &__username
+        margin-bottom: 6px
+    &__password
+        margin-bottom: 20px
+    &__links
+        display: flex
+        justify-content: space-between
+        width: 100%
+        align-items: center
+    &__remember
+        height: 33px
+        width: 33px
+        &-wrapper
+            display: flex
+            align-items: center
+    &__label
+        margin-left: 15px
+        color: inherit
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 23px
+    &__forget
+        color: inherit
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 23px
+    &__buttons
+        &-wrapper
+            margin-top: auto
+    &__button
+        width: 320px
+        height: 50px
+        background-color: #826550
+        color: #fff
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        text-transform: uppercase
+        border: none
+        &--close-mob
+            display: none
+        
+        
+//animation
+
+@keyframes appear
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+        
