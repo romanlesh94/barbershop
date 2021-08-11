@@ -50,6 +50,8 @@
         font-size: 24px
         line-height: 31px
         padding-left: 25px
+        &:hover
+            border: 1px solid #353535
     &__username
         margin-bottom: 6px
     &__password
@@ -62,6 +64,7 @@
     &__remember
         height: 33px
         width: 33px
+        cursor: pointer
         &-wrapper
             display: flex
             align-items: center
@@ -72,6 +75,7 @@
         font-weight: normal
         font-size: 18px
         line-height: 23px
+        cursor: pointer
     &__forget
         color: inherit
         font-style: normal
@@ -92,8 +96,14 @@
         line-height: 23px
         text-transform: uppercase
         border: none
+        cursor: pointer
+        &:hover
+            background-color: #6a4d38
         &--close-mob
             display: none
+            &:hover
+                background-color: #e5ddd5
+                border: 1px solid #6a4d38
         
         
 //animation
